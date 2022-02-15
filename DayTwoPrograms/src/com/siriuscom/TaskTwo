@@ -1,0 +1,7 @@
+Ans:
+The Java for-each loop or enhanced for loop. It is mainly used to traverse the array or collection elements. The advantage of the for-each loop is that it makes the code more readable. It is known as the for-each loop because it traverses each element one by one.
+There are few drawback of the enhanced for loop:
+1)  For-each loops are not appropriate when you want to modify the array.
+2)	For-each loops do not keep track of index. 
+3)	For-each only iterates forward over the array so we cannot trackback.
+4)	For-each only iterates forward over the array in single steps 
