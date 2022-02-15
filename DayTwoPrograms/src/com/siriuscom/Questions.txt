@@ -1,0 +1,19 @@
+1) When to go for double ? And When to use Float ?
+Ans: We use Double when number is large and we need exact answer whereas float is used for storing floating numbers with the help of floating numbers.
+Double = 69.420420420420
+Float = 3.14
+
+2) Can char store negative numbers in Java?
+Ans: No, A char in java is an unsigned 16-bit integer. If you cast a negative integer literal like -65 to a char, then the value is interpreted as a positive number
+
+5) Find the Output :
+Ans: 22
+
+6) Find the Output :
+Ans: 9
+
+7) Explore About Short Circuiting?
+Ans: Short Circuiting means whenever we are comparing Boolean values the execution will stop as soon as 1st condition is satisfied. Since (&&) and (!!) are Boolean operators.
+Exa. 
+(1 != 1) && (2 == 2) Here (2==2) wont be executed as 1st condition is true.
+
