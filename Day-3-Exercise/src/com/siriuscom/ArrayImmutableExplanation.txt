@@ -1,0 +1,4 @@
+Immutability of strings provides features as Caching, Security, Easy Reuse and Performance etc.
+
+Immutability means the object whose internal state remains constant after it has been entirely created. This means that once the object has been assigned to a variable, we can neither update the reference nor mutate the internal state by any means.
+
