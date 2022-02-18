@@ -18,3 +18,14 @@
 .metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml
 .metadata/version.ini
 .gitignore
+.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache
+.metadata/.bak_0.log
+.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache
+.metadata/.plugins/org.eclipse.jdt.core/javaLikeNames.txt
+.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache
+.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml
+.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml
+.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml
+.metadata/.plugins/org.eclipse.tips.ide/dialog_settings.xml
+.metadata/.plugins/org.eclipse.ui.editors/dialog_settings.xml
+.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml
