@@ -1,0 +1,76 @@
+Q.1) Difference between a class and an object?
+
+Answer:
+
+A class is the building block that leads to Object-Oriented Programming. It is a user-defined data type, that has its own data members and member functions, which can be accessed and used by creating an instance of that class. It is the blueprint of any object.
+
+An object is an instance of a class. All data members and member functions of the class can be accessed with the help of objects.
+ 
+Difference between Class and Object:
+
+•	Class is an template for declaring and creating the objects. 
+•	The class has to be declared only once.Object:
+•	An object is the instance of the class.
+•	Objects can be declared multiple times.
+
+
+
+Q.2) What is Overloading and its uses?
+
+Answer:
+
+Method Overloading is one of the important features of object-oriented programming. It allows users to have more than one function having the same name but different properties. Overloaded functions enable users to supply different semantics for a function, depending on the signature of functions.
+
+•	It improves code readability and allows code reusability.
+•	Saves memory space, consistency, and readability.
+•	It speeds up the execution of the program
+•	Function overloading brings flexibility to code.
+•	The function can perform different operations 
+
+
+
+Q.3) What is Overriding and its uses?
+
+Answer:
+If subclass or child class has the same method as declared in the parent class, it is known as method overriding in Java. Whenever a subclass has a method that has been declared by one of its parent class, it is known as method overriding.
+
+•	The method must have the same name as in the parent class
+•	The method must have the same parameter as in the parent class.
+•	There must be an inheritance.
+•	A method declared final cannot be overridden.
+•	A method declared static cannot be overridden but can be re-declared.
+•	If a method cannot be inherited, then it cannot be overridden.
+•	Constructors cannot be overridden.
+
+Q.4) What is the difference between Overloading and Overriding?
+
+Answer:
+When two or more methods in the same class have the same name but different parameters, it is called Overloading.
+
+When the method name and parameters are the same in the superclass and the child class, it is called Overriding.
+
+Difference Between Overloading and Overriding:
+
+1.	Overriding implements Runtime Polymorphism whereas Overloading implements Compile time polymorphism.
+2.	The method Overriding occurs between superclass and subclass. Overloading occurs between the methods in the same class.
+3.	Overriding methods have the same signature i.e. same name and method arguments. Overloaded method names are the same but the parameters are different.
+4.	With Overloading, the method to call is determined at the compile-time. With overriding, the method call is determined at the runtime based on the object type.
+
+Q.5) What is an Abstract class?
+
+Answer:
+
+Data abstraction is the process of hiding certain details and showing only essential information to the user. Abstraction can be achieved with either abstract classes or interfaces 
+A class which is declared as abstract is known as an abstract class. It can have abstract and non-abstract methods. It needs to be extended and its method implemented. It cannot be instantiated.
+An abstract class must be declared with an abstract keyword. It can have abstract and non-abstract methods. It cannot be instantiated.
+
+Q.6) What is an Interface? When and how can we use Interface in Java?
+
+Answer:
+The interface is a mechanism to achieve abstraction like Abstract Classes. There can be only abstract methods in the Java interface, not method body.
+It is used to achieve abstraction and multiple inheritance in Java. Basically interfaces can have abstract methods and variables. It cannot have a method body. Java Interface also represents the IS-A relationship.
+
+
+
+
+
