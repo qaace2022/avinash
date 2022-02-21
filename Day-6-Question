@@ -1,0 +1,35 @@
+Q.1) Why java does not support Multiple inheritance? Is there any way to do that?
+
+Answer:
+
+Multiple Inheritance is a feature of an object-oriented concept, where a class can inherit properties of more than one parent class. The problem occurs when there exist methods with the same signature in both the super classes and subclass. On calling the method, the compiler cannot determine which class method to be called and even on calling which class method gets the priority. 
+
+Java does not support multiple inheritance to avoid the ambiguity caused by the multiple inheritance. One of the most common problems that are occurred due to multiple inheritance is the Diamond problem. 
+
+Example:
+	
+com.siriuscom;
+
+interface X {
+
+  void myMethod();
+}
+
+interface Y {
+
+  void myMethod();
+}
+
+public class MInheritanceExample implements X, Y {
+
+  @Override
+  public void myMethod() {
+    System.out.println("Implementing more than one interfaces");
+  }
+
+  public static void main(String[] args) {
+    MInheritanceExample mIExample = new MInheritanceExample();
+    mIExample.myMethod();
+  }
+}
+
